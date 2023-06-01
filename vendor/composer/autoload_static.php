@@ -7,8 +7,8 @@ namespace Composer\Autoload;
 class ComposerStaticInit1f3bd8b7ed002dee8ddef8d3612c8e4d
 {
     public static $files = array (
-        'ec07570ca5a812141189b1fa81503674' => __DIR__ . '/..' . '/phpunit/phpunit/src/Framework/Assert/Functions.php',
         '6124b4c8570aa390c21fafd04a26c69f' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/deep_copy.php',
+        'ec07570ca5a812141189b1fa81503674' => __DIR__ . '/..' . '/phpunit/phpunit/src/Framework/Assert/Functions.php',
     );
 
     public static $prefixLengthsPsr4 = array (
@@ -27,7 +27,7 @@ class ComposerStaticInit1f3bd8b7ed002dee8ddef8d3612c8e4d
         ),
         'A' => 
         array (
-            'Admin\\ProjPhpPdo\\' => 17,
+            'App\\' => 4,
         ),
     );
 
@@ -48,7 +48,7 @@ class ComposerStaticInit1f3bd8b7ed002dee8ddef8d3612c8e4d
         array (
             0 => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy',
         ),
-        'Admin\\ProjPhpPdo\\' => 
+        'App\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),
